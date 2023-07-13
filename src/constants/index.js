@@ -25,6 +25,9 @@ import {
   threejs,
   myCasa,
   myStore,
+  ecommadmin,
+  yelpcamp,
+  shopper,
 } from "../assets";
 
 export const navLinks = [
@@ -253,26 +256,74 @@ const projects = [
     see_live_link: "https://mermecomm.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "myStore admin dashboard",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Ecommerce admin Dashboard where admin can efficiently handle products, categories, orders, users, and other essential entities within the e-commerce system.Default login:admin@gmail.com,password:admin",
     tags: [
       {
-        name: "react",
+        name: "MERN",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "axios",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "restAPI",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: ecommadmin,
+    source_code_link: "https://github.com/namodynamic/MERN-Ecomm-admin",
+    see_live_link: "https://mernecomm-admin.netlify.app",
+  },
+  {
+    name: "Yelpcamp",
+    description:
+      "Web app used as campground directory and review platform.Users can add,edit,delete their own campgrounds and reviews and also view other people's camground and reviews.It's my first web app project at the web developer bootcamp by Colt Steele.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "passportjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yelpcamp,
+    source_code_link: "https://github.com/namodynamic/YelpCamp-",
+    see_live_link: "https://namo-tftf.onrender.com",
+  },
+  {
+    name: "Simple ecommerce website UI",
+    description:
+      "This is a simple e-commerce website UI i built using HTML, CSS, and JavaScript. It includes a home page with a slider section and featured products.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
-    see_live_link:"",
+    source_code_link: "https://github.com/namodynamic/simple-ecommerce-website",
+    see_live_link: "https://simple-ecommerce-w.netlify.app/",
   },
   {
     name: "Trip Guide",

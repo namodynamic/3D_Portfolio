@@ -34,6 +34,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import myCasa from "./myCasa.png";
 import myStore from "./myStore.png";
+import ecommadmin from "./ecommadmin.png";
+import yelpcamp from "./yelpcamp.png";
+import shopper from "./shopper.png";
 
 export {
   logo,
@@ -67,5 +70,8 @@ export {
   tripguide,
   myCasa,
   myStore,
-  myResume
+  myResume,
+  ecommadmin,
+  yelpcamp,
+  shopper,
 };
