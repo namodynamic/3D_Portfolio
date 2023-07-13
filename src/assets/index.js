@@ -1,11 +1,14 @@
-import logo1 from "./logo1.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+
+import myResume from "./myResume.pdf";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -29,14 +32,17 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import myCasa from "./myCasa.png";
+import myStore from "./myStore.png";
 
 export {
-  logo1,
+  logo,
   backend,
   creator,
   mobile,
   web,
   github,
+  live,
   menu,
   close,
   css,
@@ -59,4 +65,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  myCasa,
+  myStore,
+  myResume
 };

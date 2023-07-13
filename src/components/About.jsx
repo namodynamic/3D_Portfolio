@@ -1,6 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import { myResume } from "../assets";
 
 import { styles } from "../style";
 import { services } from "../constants";
@@ -24,7 +25,9 @@ const ServiceCard = ({ index, title, icon }) => {
           justify-evenly items-center flex-col"
         >
           <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-          <h3 className="text-white text-[20px] font-bold text-center">{ title}</h3>
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -42,12 +45,24 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a software developer with background in frontend development and
+        experience in backend development as well. My skills include HTML, CSS,
+        JavaScript, Node.js,React.js, Express, MongoDB, and various other web
+        development frameworks and libraries. I have a passion for creating
+        responsive, dynamic, and efficient web applications that provide a
+        seamless user experience. I am constantly learning new technologies and
+        expanding my skill set to stay up-to-date with the latest trends and
+        advancements in the field.I'm a quick learner and collaborate closely
+        with clients to create efficient, scalable, and user-friendly solutions
+        that solve real-world problems. My goal is to create innovative and
+        practical solutions to meet the unique needs of each project, while
+        always maintaining a focus on user experience and functionality. I am
+        committed to delivering high-quality work and exceeding client
+        expectations. Let's work together to bring your ideas to life!
       </motion.p>
+      <span className="flex mt-3 text-[18px] rounded-xl violet-gradient resume-link">
+        <a href={myResume}>View Resume</a>
+      </span>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

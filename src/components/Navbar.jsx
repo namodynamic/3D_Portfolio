@@ -2,13 +2,55 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../style";
 import { navLinks } from "../constants";
-import { logo1, menu, close } from "../assets";
+import { logo, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+        setActive("");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    const navbarHighlighter = () => {
+      const sections = document.querySelectorAll("section[id]");
+
+      sections.forEach((current) => {
+        const sectionId = current.getAttribute("id");
+        const sectionHeight = current.offsetHeight;
+        const sectionTop =
+          current.getBoundingClientRect().top - sectionHeight * 0.2;
+
+        if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
+          setActive(sectionId);
+        }
+      });
+    };
+
+    window.addEventListener("scroll", navbarHighlighter);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("scroll", navbarHighlighter);
+    };
+  }, []);
+
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 ${
+        scrolled ? "bg-primary" : "bg-transparent"
+      }`}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link
@@ -19,9 +61,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo1} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Nnamdi &nbsp;<span className="sm:block hidden">| Cyprian Ekechi</span>
+            Nnamdi &nbsp;<span className="sm:block hidden">| 3D Portfolio</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

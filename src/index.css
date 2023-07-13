@@ -19,6 +19,21 @@
   display: block;
 }
 
+.resume-link {
+  display: inline-block;
+  max-width: fit-content;
+}
+.resume-link:hover {
+  color: #12df64;
+  transform: scale(1.1);
+}
+
+.link:hover {
+ 
+  transform: scale(1.1);
+}
+
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
