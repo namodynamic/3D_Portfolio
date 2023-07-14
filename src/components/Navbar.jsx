@@ -63,7 +63,7 @@ const Navbar = () => {
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Nnamdi &nbsp;<span className="sm:block hidden">| 3D Portfolio</span>
+            Nnamdi &nbsp;<span className="sm:block hidden">| Web Developer</span>
           </p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">

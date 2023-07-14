@@ -85,14 +85,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -101,21 +97,13 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
@@ -321,7 +309,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: shopper,
     source_code_link: "https://github.com/namodynamic/simple-ecommerce-website",
     see_live_link: "https://simple-ecommerce-w.netlify.app/",
   },
