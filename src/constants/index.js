@@ -265,7 +265,7 @@ const projects = [
     see_live_link: "https://simple-ecommerce-w.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "3D Portfolio",
     description:
       "A portfolio website that showcase my skills and works as a web developer. It uses 3D graphics and animation to create a visually appealing and interactive experience.",
     tags: [
