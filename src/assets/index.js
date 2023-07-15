@@ -28,15 +28,15 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import datacomm from "./company/datacomm.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import myCasa from "./myCasa.png";
 import myStore from "./myStore.png";
 import ecommadmin from "./ecommadmin.png";
 import yelpcamp from "./yelpcamp.png";
 import shopper from "./shopper.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -64,9 +64,8 @@ export {
   meta,
   shopify,
   starbucks,
+  datacomm,
   tesla,
-  carrent,
-  jobit,
   tripguide,
   myCasa,
   myStore,
@@ -74,4 +73,5 @@ export {
   ecommadmin,
   yelpcamp,
   shopper,
+  portfolio,
 };
