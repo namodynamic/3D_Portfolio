@@ -7,21 +7,20 @@ import {
   typescript,
   html,
   css,
+  nextjs,
   reactjs,
   nodejs,
   mongodb,
   git,
   meta,
   datacomm,
-  tesla,
-  shopify,
-  tripguide,
   myCasa,
   myStore,
   ecommadmin,
   yelpcamp,
   shopper,
   portfolio,
+  promptopia,
 } from "../assets";
 
 export const navLinks = [
@@ -60,14 +59,14 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "nextjs",
+    icon: nextjs,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
-  
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -76,7 +75,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
- 
+
   {
     name: "git",
     icon: git,
@@ -97,7 +96,7 @@ const experiences = [
       "Monitoring check in and out process for each worker.",
     ],
   },
-  
+
   {
     title: "Web Developer",
     company_name: "Freelance",
@@ -289,6 +288,32 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/namodynamic/3D_Portfolio",
     see_live_link: "https://nnamdiekechi.netlify.app",
+  },
+  {
+    name: "Promptopia",
+    description:
+      "Promptopia is an open-source AI prompting tool for modern world to discover,create and share creative prompts.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "white-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/namodynamic/promptopia",
+    see_live_link: "https://promptopia-n.vercel.app/",
   },
 ];
 

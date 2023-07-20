@@ -48,11 +48,11 @@ const About = () => {
         I'm a software developer with background in frontend development and
         experience in backend development as well. My skills include HTML, CSS,
         JavaScript, Node.js,React.js, Express, MongoDB, and various other web
-        development frameworks and libraries. I have a passion for creating
+        development frameworks and libraries. I am passionate about creating
         responsive, dynamic, and efficient web applications that provide a
         seamless user experience. I am constantly learning new technologies and
         expanding my skill set to stay up-to-date with the latest trends and
-        advancements in the field.I'm a quick learner and collaborate closely
+        advancements in the field.I am a quick learner and i collaborate closely
         with clients to create efficient, scalable, and user-friendly solutions
         that solve real-world problems. My goal is to create innovative and
         practical solutions to meet the unique needs of each project, while

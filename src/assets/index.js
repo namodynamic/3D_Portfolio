@@ -23,6 +23,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +38,7 @@ import ecommadmin from "./ecommadmin.png";
 import yelpcamp from "./yelpcamp.png";
 import shopper from "./shopper.png";
 import portfolio from "./portfolio.png";
+import promptopia from "./promptopia.png";
 
 export {
   logo,
@@ -59,6 +61,7 @@ export {
   reactjs,
   redux,
   tailwind,
+  nextjs,
   typescript,
   threejs,
   meta,
@@ -74,4 +77,5 @@ export {
   yelpcamp,
   shopper,
   portfolio,
+  promptopia,
 };
