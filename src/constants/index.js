@@ -7,6 +7,10 @@ import {
   typescript,
   html,
   css,
+  figma,
+  threejs,
+  redux,
+  tailwind,
   nextjs,
   reactjs,
   nodejs,
@@ -52,12 +56,28 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "JavaScript Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
+  {
+    name: "javascript",
+    icon: javascript,
+  },
+  {
+    name: "typescript",
+    icon: typescript,
+  },
+  {
+    name: "html",
+    icon: html,
+  },
+  {
+    name: "css",
+    icon: css,
+  },
   {
     name: "nextjs",
     icon: nextjs,
@@ -75,10 +95,26 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  {
+    name: "Redux",
+    icon: redux,
+  },
+  {
+    name: "Tailwind",
+    icon: tailwind,
+  },
+  {
+    name: "Threejs",
+    icon: threejs,
+  },
 
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "figma",
+    icon: figma,
   },
 ];
 
