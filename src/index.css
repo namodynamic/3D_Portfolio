@@ -33,6 +33,10 @@
   transform: scale(1.1);
 }
 
+.social-links:hover {
+ transform: scale(1.5);
+}
+
 
 .black-gradient {
   background: #000000; /* fallback for old browsers */

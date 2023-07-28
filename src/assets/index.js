@@ -7,6 +7,8 @@ import github from "./github.png";
 import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import whatsapp from "./whatsapp.png";
+
 
 import myResume from "./myResume.pdf";
 
@@ -47,6 +49,7 @@ export {
   mobile,
   web,
   github,
+  whatsapp,
   live,
   menu,
   close,
