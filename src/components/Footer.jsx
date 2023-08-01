@@ -1,6 +1,3 @@
-import React from "react";
-import { whatsapp } from "../assets";
-
 const Footer = () => {
   return (
     <footer>
