@@ -1,7 +1,7 @@
-import { BallCanvas } from "./canvas";
 import Marquee from "react-fast-marquee";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+// import { BallCanvas } from "./canvas";
 
 const Tech = () => {
   return (

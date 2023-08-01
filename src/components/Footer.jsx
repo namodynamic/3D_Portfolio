@@ -12,23 +12,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="social-links"
         >
-          <i className="devicon-linkedin-plain colored"></i>
-        </a>
-        <a
-          href="https://wa.me/2347065262086?text=Hello,I%20want%20to%20connect%20with%20you!"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-links"
-        >
-          <img src={whatsapp} alt="whatsapp" />
-        </a>
-        <a
-          href="https://twitter.com/namodynamic"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="social-links"
-        >
-          <i className="devicon-twitter-original colored"></i>
+          <i class="devicon-linkedin-plain"></i>
         </a>
         <a
           href="https://github.com/namodynamic"
