@@ -25,6 +25,7 @@ import {
   shopper,
   portfolio,
   promptopia,
+  threejsai,
 } from "../assets";
 
 export const navLinks = [
@@ -324,6 +325,32 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/namodynamic/3D_Portfolio",
     see_live_link: "https://nnamdiekechi.netlify.app",
+  },
+  {
+    name: "AI-Powered 3D Shirt Website",
+    description:
+      "Create unique & exclusive shirt with 3D customization tool,upload your own logo,change color or even write a customized prompt to ask AI to generate logo & texture for you.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dalle-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "white-text-gradient",
+      },
+    ],
+    image: threejsai,
+    source_code_link: "https://github.com/namodynamic/threejs_ai_project",
+    see_live_link: "https://three-ai.netlify.app",
   },
   {
     name: "Promptopia",

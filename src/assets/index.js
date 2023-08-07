@@ -41,6 +41,7 @@ import yelpcamp from "./yelpcamp.png";
 import shopper from "./shopper.png";
 import portfolio from "./portfolio.png";
 import promptopia from "./promptopia.png";
+import threejsai from "./threejsai.png";
 
 export {
   logo,
@@ -81,4 +82,5 @@ export {
   shopper,
   portfolio,
   promptopia,
+  threejsai
 };
