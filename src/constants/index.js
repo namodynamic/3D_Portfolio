@@ -205,6 +205,32 @@ const projects = [
     see_live_link: "https://mycasa-dashboard.netlify.app/",
   },
   {
+    name: "AI-Powered 3D Shirt Website",
+    description:
+      "Create unique & exclusive shirt with 3D customization tool,upload your own logo,change color or even write a customized prompt to ask AI to generate logo & texture for you.",
+    tags: [
+      {
+        name: "threejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "dalle-ai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "white-text-gradient",
+      },
+    ],
+    image: threejsai,
+    source_code_link: "https://github.com/namodynamic/threejs_ai_project",
+    see_live_link: "https://three-ai.netlify.app",
+  },
+  {
     name: "myStore",
     description:
       "E-commerce web application that incorporates various key features and functionalities that are essential for an e-commerce platform using MERN(MongoDB,Express.js,React.js and Node.js) stack with other frameworks and libraries.",
@@ -257,50 +283,6 @@ const projects = [
     see_live_link: "https://mernecomm-admin.netlify.app",
   },
   {
-    name: "Yelpcamp",
-    description:
-      "Web app used as campground directory and review platform.Users can add,edit,delete their own campgrounds and reviews and also view other people's camground and reviews.It's my first web app project at the web developer bootcamp by Colt Steele.",
-    tags: [
-      {
-        name: "MERN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "passportjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: yelpcamp,
-    source_code_link: "https://github.com/namodynamic/YelpCamp-",
-    see_live_link: "https://namo-tftf.onrender.com",
-  },
-  {
-    name: "Simple ecommerce website UI",
-    description:
-      "This is a simple e-commerce website UI i built using HTML, CSS, and JavaScript. It includes a home page with a slider section and featured products.",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: shopper,
-    source_code_link: "https://github.com/namodynamic/simple-ecommerce-website",
-    see_live_link: "https://simple-ecommerce-w.netlify.app/",
-  },
-  {
     name: "3D Portfolio",
     description:
       "A portfolio website that showcase my skills and works as a web developer. It uses 3D graphics and animation to create a visually appealing and interactive experience.",
@@ -326,32 +308,7 @@ const projects = [
     source_code_link: "https://github.com/namodynamic/3D_Portfolio",
     see_live_link: "https://nnamdiekechi.netlify.app",
   },
-  {
-    name: "AI-Powered 3D Shirt Website",
-    description:
-      "Create unique & exclusive shirt with 3D customization tool,upload your own logo,change color or even write a customized prompt to ask AI to generate logo & texture for you.",
-    tags: [
-      {
-        name: "threejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "dalle-ai",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react",
-        color: "white-text-gradient",
-      },
-    ],
-    image: threejsai,
-    source_code_link: "https://github.com/namodynamic/threejs_ai_project",
-    see_live_link: "https://three-ai.netlify.app",
-  },
+
   {
     name: "Promptopia",
     description:
@@ -377,6 +334,28 @@ const projects = [
     image: promptopia,
     source_code_link: "https://github.com/namodynamic/promptopia",
     see_live_link: "https://promptopia-n.vercel.app/",
+  },
+  {
+    name: "Yelpcamp",
+    description:
+      "Web app used as campground directory and review platform.Users can add,edit,delete their own campgrounds and reviews and also view other people's camground and reviews.It's my first web app project at the web developer bootcamp by Colt Steele.",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "passportjs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yelpcamp,
+    source_code_link: "https://github.com/namodynamic/YelpCamp-",
+    see_live_link: "https://namo-tftf.onrender.com",
   },
 ];
 
