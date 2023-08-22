@@ -26,6 +26,8 @@ import {
   portfolio,
   promptopia,
   threejsai,
+  threads,
+  nike,
 } from "../assets";
 
 export const navLinks = [
@@ -178,6 +180,33 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Nike Landing Page",
+    description:
+      " A fully responsive Nike landing page, works smoothly on any device thanks to Tailwindcss. Discover the perfect blend of style and practicality on my Nike landing page, where great design meets full responsiveness. ",
+    tags: [
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: nike,
+    source_code_link:
+      "https://github.com/namodynamic/nike-landing-page",
+    see_live_link: "https://nike-land-page.vercel.app/",
+  },
+  {
     name: "myCasa",
     description:
       "Real Estate web application dashboard that serves as a platform for managing real estate properties. It provides a user-friendly interface for real estate agents, property managers, and clients to interact and manage property listings.Built using MERN stack,REFINE and other technologies.",
@@ -205,6 +234,32 @@ const projects = [
     see_live_link: "https://mycasa-dashboard.netlify.app/",
   },
   {
+    name: "Threads Clone",
+    description:
+      "A clone of Threads app built using the cutting-edge technology stack of Next.js 13.4 and Clerk for seamless authentication. With the power of Next.js 13.4, the user experience is taken to a whole new level of speed and responsiveness.",
+    tags: [
+      {
+        name: "clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: threads,
+    source_code_link: "https://github.com/namodynamic/threads_app-project",
+    see_live_link: "https://threads-app-project.vercel.app/",
+  },
+  {
     name: "AI-Powered 3D Shirt Website",
     description:
       "Create unique & exclusive shirt with 3D customization tool,upload your own logo,change color or even write a customized prompt to ask AI to generate logo & texture for you.",
@@ -229,6 +284,33 @@ const projects = [
     image: threejsai,
     source_code_link: "https://github.com/namodynamic/threejs_ai_project",
     see_live_link: "https://three-ai.netlify.app",
+  },
+  
+  {
+    name: "Promptopia",
+    description:
+      "Promptopia is an open-source AI prompting tool for modern world to discover,create and share creative prompts.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "white-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/namodynamic/promptopia",
+    see_live_link: "https://promptopia-n.vercel.app/",
   },
   {
     name: "myStore",
@@ -307,33 +389,6 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/namodynamic/3D_Portfolio",
     see_live_link: "https://nnamdiekechi.netlify.app",
-  },
-
-  {
-    name: "Promptopia",
-    description:
-      "Promptopia is an open-source AI prompting tool for modern world to discover,create and share creative prompts.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "react",
-        color: "white-text-gradient",
-      },
-    ],
-    image: promptopia,
-    source_code_link: "https://github.com/namodynamic/promptopia",
-    see_live_link: "https://promptopia-n.vercel.app/",
   },
   {
     name: "Yelpcamp",

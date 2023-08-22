@@ -46,9 +46,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm a software developer with background in frontend development and
-        experience in backend development as well. My skills include HTML, CSS,
-        JavaScript, Node.js,React.js, Express, MongoDB, and various other web
-        development frameworks and libraries. I am passionate about creating
+        experience in backend development as well.I am passionate about creating
         responsive, dynamic, and efficient web applications that provide a
         seamless user experience. I am constantly learning new technologies and
         expanding my skill set to stay up-to-date with the latest trends and

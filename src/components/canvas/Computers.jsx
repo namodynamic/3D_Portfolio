@@ -4,10 +4,10 @@ import { Canvas } from "@react-three/fiber";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({isMobile}) => {
+const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
-    <mesh>
+    <group>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
@@ -18,13 +18,14 @@ const Computers = ({isMobile}) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive
-        object={computer.scene}
+      <group
         scale={isMobile ? 0.58 : 0.65}
         position={isMobile ? [-1, -3, -2] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
-      />
-    </mesh>
+      >
+        <primitive object={computer.scene} />
+      </group>
+    </group>
   );
 };
 
@@ -58,6 +59,7 @@ const ComputersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      pixelratio={isMobile ? 0.5 : 1}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
@@ -65,7 +67,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Computers isMobile={isMobile}/>
+        <Computers isMobile={isMobile} />
       </Suspense>
 
       <Preload all />

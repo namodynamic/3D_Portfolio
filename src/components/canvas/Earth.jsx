@@ -7,15 +7,22 @@ import CanvasLoader from "../Loader";
 const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
-  )
-}
+    <group>
+      <primitive
+        object={earth.scene}
+        scale={2.5}
+        position-y={0}
+        rotation-y={0}
+      />
+    </group>
+  );
+};
 
 const EarthCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop='demand'
+      frameloop="demand"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{
@@ -24,6 +31,7 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      pixelratio={window.devicePixelRatio}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

@@ -42,6 +42,8 @@ import shopper from "./shopper.png";
 import portfolio from "./portfolio.png";
 import promptopia from "./promptopia.png";
 import threejsai from "./threejsai.png";
+import threads from "./threads.png";
+import nike from "./nike.png";
 
 export {
   logo,
@@ -82,5 +84,7 @@ export {
   shopper,
   portfolio,
   promptopia,
-  threejsai
+  threejsai,
+  threads,
+  nike,
 };
