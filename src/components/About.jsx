@@ -59,7 +59,9 @@ const About = () => {
         expectations. Let's work together to bring your ideas to life!
       </motion.p>
       <span className="flex mt-3 text-[18px] rounded-xl violet-gradient resume-link">
-        <a href={myResume}>View Resume</a>
+        <a href={myResume} target="_blank" rel="noopener noreferrer">
+          View Resume
+        </a>
       </span>
 
       <div className="mt-20 flex flex-wrap gap-10">
