@@ -56,7 +56,7 @@ const About = () => {
         practical solutions to meet the unique needs of each project, while
         always maintaining a focus on user experience and functionality. I am
         committed to delivering high-quality work and exceeding client
-        expectations. Let's work together to bring your ideas to life!
+        expectations. Let's work together to bring your ideas to life.
       </motion.p>
       <span className="flex mt-3 text-[18px] rounded-xl violet-gradient resume-link">
         <a href={myResume} target="_blank" rel="noopener noreferrer">
