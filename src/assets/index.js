@@ -9,7 +9,6 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import whatsapp from "./whatsapp.png";
 
-
 import myResume from "./myResume.pdf";
 
 import css from "./tech/css.png";
@@ -44,6 +43,9 @@ import promptopia from "./promptopia.png";
 import threejsai from "./threejsai.png";
 import threads from "./threads.png";
 import nike from "./nike.png";
+import pricewise from "./pricewise.png";
+import summarize from "./summarize.png";
+import travel from "./travel.png";
 
 export {
   logo,
@@ -87,4 +89,7 @@ export {
   threejsai,
   threads,
   nike,
+  pricewise,
+  summarize,
+  travel,
 };

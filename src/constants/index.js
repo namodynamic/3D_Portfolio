@@ -28,6 +28,9 @@ import {
   threejsai,
   threads,
   nike,
+  pricewise,
+  summarize,
+  travel,
 } from "../assets";
 
 export const navLinks = [
@@ -180,6 +183,84 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Pricewise",
+    description:
+      "A web scraping app that scrapes data such as product image, prices, ratings, and descriptions from amazon website and displays it in a user-friendly interface. Also a track option where you can provide email and it will track the product for you using cron job.",
+    tags: [
+      {
+        name: "nextjs13",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "brightdata",
+        color: "green-text-gradient",
+      },
+      {
+        name: "cronjob",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "webscraping",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: pricewise,
+    source_code_link: "https://github.com/namodynamic/pricewise_project",
+    see_live_link: "https://pricewise-pro.vercel.app/",
+  },
+  {
+    name: "Summarizer",
+    description:
+      "An open-source article summarizer that transforms lengthy articles into clear and concise summaries.",
+    tags: [
+      {
+        name: "rapidai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-redux",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: summarize,
+    source_code_link: "https://github.com/namodynamic/ai-summarizer",
+    see_live_link: "https://ai-sumarize.netlify.app/",
+  },
+  {
+    name: "Travel App UI/UX",
+    description:
+      "A full responsive modern UI/UX landing page built with Tailwindcss, Nextjs13 and TypeScript.",
+    tags: [
+      {
+        name: "nextjs13",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: travel,
+    source_code_link: "https://github.com/namodynamic/travel-app",
+    see_live_link: "https://travelapp-n.vercel.app/",
+  },
+  {
     name: "Nike Landing Page",
     description:
       " A fully responsive Nike landing page, works smoothly on any device thanks to Tailwindcss. Discover the perfect blend of style and practicality on my Nike landing page, where great design meets full responsiveness. ",
@@ -202,8 +283,7 @@ const projects = [
       },
     ],
     image: nike,
-    source_code_link:
-      "https://github.com/namodynamic/nike-landing-page",
+    source_code_link: "https://github.com/namodynamic/nike-landing-page",
     see_live_link: "https://nike-land-page.vercel.app/",
   },
   {
@@ -285,7 +365,7 @@ const projects = [
     source_code_link: "https://github.com/namodynamic/threejs_ai_project",
     see_live_link: "https://three-ai.netlify.app",
   },
-  
+
   {
     name: "Promptopia",
     description:
