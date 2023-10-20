@@ -25,6 +25,7 @@
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
+    "@babel/traverse": "^7.23.2",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^4.0.1",
