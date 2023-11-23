@@ -3,11 +3,12 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
 import live from "./live.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import whatsapp from "./whatsapp.png";
+import contact from "./contact.svg";
+import github from "./github.png";
+import linkedin from "./linkedin.svg";
 
 import myResume from "./myResume.pdf";
 
@@ -37,7 +38,6 @@ import myCasa from "./myCasa.png";
 import myStore from "./myStore.png";
 import ecommadmin from "./ecommadmin.png";
 import yelpcamp from "./yelpcamp.png";
-import shopper from "./shopper.png";
 import portfolio from "./portfolio.png";
 import promptopia from "./promptopia.png";
 import threejsai from "./threejsai.png";
@@ -54,6 +54,8 @@ export {
   mobile,
   web,
   github,
+  linkedin,
+  contact,
   whatsapp,
   live,
   menu,

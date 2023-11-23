@@ -31,6 +31,8 @@ import {
   pricewise,
   summarize,
   travel,
+  github,
+  linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -47,6 +49,20 @@ export const navLinks = [
     title: "Contact",
   },
 ];
+
+export const socialLinks = [
+  {
+      name: 'GitHub',
+      iconUrl: github,
+      link: 'https://github.com/namodynamic',
+  },
+  {
+      name: 'LinkedIn',
+      iconUrl: linkedin,
+      link: 'https://www.linkedin.com/in/ekechinnamdi',
+  }
+];
+
 
 const services = [
   {
