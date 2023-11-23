@@ -22,7 +22,6 @@ import {
   myStore,
   ecommadmin,
   yelpcamp,
-  shopper,
   portfolio,
   promptopia,
   threejsai,
