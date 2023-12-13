@@ -46,6 +46,7 @@ import nike from "./nike.png";
 import pricewise from "./pricewise.png";
 import summarize from "./summarize.png";
 import travel from "./travel.png";
+import payload from "./payload.png"
 
 export {
   logo,
@@ -92,4 +93,5 @@ export {
   pricewise,
   summarize,
   travel,
+  payload
 };

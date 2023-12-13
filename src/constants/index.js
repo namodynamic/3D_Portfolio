@@ -32,6 +32,7 @@ import {
   travel,
   github,
   linkedin,
+  payload,
 } from "../assets";
 
 export const navLinks = [
@@ -222,6 +223,32 @@ const projects = [
     image: pricewise,
     source_code_link: "https://github.com/namodynamic/pricewise_project",
     see_live_link: "https://pricewise-pro.vercel.app/",
+  },
+  {
+    name: "e-commerce",
+    description:
+      "E-commerce website with an admin dashboard and CMS using Next 14, Stripe, TypeScript, and Payload CMS.",
+    tags: [
+      {
+        name: "payloadcms",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nextjs14",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: payload,
+    source_code_link: "https://github.com/namodynamic/e-commerce",
+    see_live_link: "https://e-commercejsm.payloadcms.app",
   },
   {
     name: "Summarizer",
