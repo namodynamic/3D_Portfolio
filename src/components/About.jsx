@@ -45,18 +45,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a software developer with background in frontend development and
-        experience in backend development as well.I am passionate about creating
-        responsive, dynamic, and efficient web applications that provide a
-        seamless user experience. I am constantly learning new technologies and
-        expanding my skill set to stay up-to-date with the latest trends and
-        advancements in the field.I am a quick learner and i collaborate closely
-        with clients to create efficient, scalable, and user-friendly solutions
-        that solve real-world problems. My goal is to create innovative and
-        practical solutions to meet the unique needs of each project, while
-        always maintaining a focus on user experience and functionality. I am
-        committed to delivering high-quality work and exceeding client
-        expectations. Let's work together to bring your ideas to life.
+        I'm a versatile web developer proficient in both frontend and backend
+        technologies. My passion lies in crafting responsive and dynamic web
+        applications for a seamless user experience. With a commitment to
+        staying updated on the latest trends, I collaborate closely with clients
+        to deliver efficient, scalable, and user-friendly solutions. My goal is
+        to provide innovative and practical web solutions tailored to meet the
+        unique needs of each project, always prioritizing user experience and
+        functionality. Let's work together to bring your ideas to life!
       </motion.p>
       <span className="flex mt-3 text-[18px] rounded-xl violet-gradient resume-link">
         <a href={myResume} target="_blank" rel="noopener noreferrer">

@@ -47,6 +47,7 @@ import pricewise from "./pricewise.png";
 import summarize from "./summarize.png";
 import travel from "./travel.png";
 import payload from "./payload.png"
+import evently from "./evently.png"
 
 export {
   logo,
@@ -93,5 +94,6 @@ export {
   pricewise,
   summarize,
   travel,
-  payload
+  payload,
+  evently
 };

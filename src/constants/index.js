@@ -20,8 +20,6 @@ import {
   datacomm,
   myCasa,
   myStore,
-  ecommadmin,
-  yelpcamp,
   portfolio,
   promptopia,
   threejsai,
@@ -33,6 +31,7 @@ import {
   github,
   linkedin,
   payload,
+  evently,
 } from "../assets";
 
 export const navLinks = [
@@ -251,6 +250,32 @@ const projects = [
     see_live_link: "https://e-commercejsm.payloadcms.app",
   },
   {
+    name: "Evently",
+    description:
+      "Event organization web app with authentication, event organization, search, filtering,checkout and payments that allows users to create and manage their events.Built with Nextjs 14, Clerk, Shadcn, tailwindcss,Zod, Uploadthing,React-Datepicker, and Stripe.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "shadcn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "svix",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: evently,
+    source_code_link: "https://github.com/namodynamic/evently",
+    see_live_link: "https://evently-navy.vercel.app",
+  },
+  {
     name: "Summarizer",
     description:
       "An open-source article summarizer that transforms lengthy articles into clear and concise summaries.",
@@ -461,32 +486,6 @@ const projects = [
     see_live_link: "https://mermecomm.netlify.app/",
   },
   {
-    name: "myStore admin dashboard",
-    description:
-      "Ecommerce admin Dashboard where admin can efficiently handle products, categories, orders, users, and other essential entities within the e-commerce system.Default login:admin@gmail.com,password:admin",
-    tags: [
-      {
-        name: "MERN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "axios",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "restAPI",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: ecommadmin,
-    source_code_link: "https://github.com/namodynamic/MERN-Ecomm-admin",
-    see_live_link: "https://mernecomm-admin.netlify.app",
-  },
-  {
     name: "3D Portfolio",
     description:
       "A portfolio website that showcase my skills and works as a web developer. It uses 3D graphics and animation to create a visually appealing and interactive experience.",
@@ -511,28 +510,6 @@ const projects = [
     image: portfolio,
     source_code_link: "https://github.com/namodynamic/3D_Portfolio",
     see_live_link: "https://nnamdiekechi.netlify.app",
-  },
-  {
-    name: "Yelpcamp",
-    description:
-      "Web app used as campground directory and review platform.Users can add,edit,delete their own campgrounds and reviews and also view other people's camground and reviews.It's my first web app project at the web developer bootcamp by Colt Steele.",
-    tags: [
-      {
-        name: "MERN",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Bootstrap",
-        color: "green-text-gradient",
-      },
-      {
-        name: "passportjs",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: yelpcamp,
-    source_code_link: "https://github.com/namodynamic/YelpCamp-",
-    see_live_link: "https://namo-tftf.onrender.com",
   },
 ];
 
