@@ -10,8 +10,6 @@ import contact from "./contact.svg";
 import github from "./github.png";
 import linkedin from "./linkedin.svg";
 
-import myResume from "./myResume.pdf";
-
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -28,16 +26,12 @@ import threejs from "./tech/threejs.png";
 import nextjs from "./tech/nextjs.png";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import datacomm from "./company/datacomm.jpeg";
 
 import tripguide from "./tripguide.png";
 import myCasa from "./myCasa.png";
 import myStore from "./myStore.png";
 import ecommadmin from "./ecommadmin.png";
-import yelpcamp from "./yelpcamp.png";
 import portfolio from "./portfolio.png";
 import promptopia from "./promptopia.png";
 import threejsai from "./threejsai.png";
@@ -76,16 +70,11 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
   datacomm,
-  tesla,
   tripguide,
   myCasa,
   myStore,
-  myResume,
   ecommadmin,
-  yelpcamp,
   portfolio,
   promptopia,
   threejsai,
