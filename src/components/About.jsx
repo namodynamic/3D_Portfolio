@@ -55,7 +55,7 @@ const About = () => {
         functionality. Let's work together to bring your ideas to life!
       </motion.p>
       <span className="flex mt-3 text-[18px] rounded-xl violet-gradient resume-link">
-        <a href={myResume} target="_blank" rel="noopener noreferrer">
+        <a href='https://rxresu.me/namodynamic/web-developer' target="_blank" rel="noopener noreferrer">
           View Resume
         </a>
       </span>
